@@ -1,0 +1,142 @@
+:root {
+    --gery:  #B6BBC4;
+    /* font */
+    --fwbold:700;
+     --fwextrabold:800;
+     --fwmedium:500;
+     --fwsemibold:600;
+     --fwregular:400;
+     --fwlight:300;
+}
+section{
+    background-color: black;
+    color: var(--gery);
+}
+body{
+    margin:0;
+    padding:0;    
+}
+*{
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav{
+    color: white;
+}
+.navbar .nav-item a{
+    text-decoration: none;
+    list-style: none;     
+    padding: 6px;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: solid rgba(255, 255, 255, 0);
+}
+.navbar  .nav-item a:hover{
+    color: white;
+    border-bottom: solid white;
+    padding: 4px;
+}
+
+
+/* end navbar*/
+
+/* section banneer-hero */
+.section-hero{
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;  
+}
+.mb{
+margin-bottom: 7.1rem;
+}
+.content-text p{
+    text-align: justify;
+    color: white;    
+}
+.content-text h1{
+    font-weight: var(--fwextrabold);
+    color: var(--gery); 
+}
+.content p{
+    color: var(--gery);
+    font-weight: var(--fwmedium);
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.icon-text{
+    color:var(--gery);  
+    margin-bottom: 0.6em; 
+    margin-right: 1rem;
+   }
+.icon-text:hover{
+    color: white;   
+   }
+mb-70{
+    margin-bottom: 70em;
+}
+.banner-image img{
+    border-radius: 30em;
+    border: solid var(--gery) 5px;
+    width: 20em;
+    height: 20em;
+    box-shadow: 0px 0px 14px 6px rgba(182,203,196,0.9);
+}
+.banner-image{
+    text-align: center;
+   border-radius:30em;
+}
+/* end section-hero */
+
+/* about me */
+.section-about{
+    padding-top: 4em;
+    padding-bottom: 5em;
+    background-color: black;
+    color: var(--gery);
+}
+.img-about{
+    text-align: center;
+}
+.img-about img{
+    width: 20em;
+    height: 24em;
+    background-size: cover;
+    border-radius: 30em;
+    box-shadow: 0px 0px 14px 6px rgba(182,203,196,0.9);
+    border:solid var(--gery) 5px;
+}
+
+.img-about-text  p{
+    text-align: justify;
+    font-weight: var(--fwmedium);
+}
+/* end about me */
+
+/* Exprince */
+/* end experience */
+
+/* contact */
+.contact{
+padding-top: 4rem;
+}
+.email{
+    text-decoration: none;
+    color: var(--gery);
+}
+.icon-contact:hover{
+color: white;
+}
+/* end contact */
+footer{
+    background: #000;
+    text-align: center;
+    color: var(--gery);
+    padding: 2rem;
+}
+.information-cheked{
+    
+}
